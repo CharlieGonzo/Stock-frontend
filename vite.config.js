@@ -6,7 +6,6 @@ export default defineConfig({
 
   
   plugins: [react()],
-  base: "/Stock-cloud-app/stocks-frontend",
   server: {
     proxy: {
       "/api": {
